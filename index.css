@@ -16,7 +16,7 @@ body {
     position: relative;
     transform: scalex(-1);
     height: 900px;
-    background-image: url(/Pictures/danka-peter-SoC1ex6sI4w-unsplash.jpg);
+    background-image: url(Pictures/danka-peter-SoC1ex6sI4w-unsplash.jpg);
     background-position: 30% 72%;
     background-size: cover;
     color: white;
