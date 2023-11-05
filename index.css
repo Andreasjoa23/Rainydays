@@ -22,6 +22,10 @@ body {
     color: white;
 }
 
+.banner-text img {
+    width: 100%;
+}
+
 .banner-text h1  {
     position: absolute;
     top: 30%;
@@ -30,6 +34,7 @@ body {
     width:30%;
     padding: 0px;
     font-size: 50px;
+    white-space: nowrap;
 }
 
 .banner-buttons {
@@ -49,10 +54,6 @@ body {
     color: white;
 }
 
-@media screen {
-}
-
-
 .popular {
     margin-top: 200px;
 }
@@ -67,6 +68,8 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-image {
@@ -76,27 +79,32 @@ body {
 
 .product {
     flex: 0 1 calc(25% - 0px);
-    padding: 5px;
     text-align: center;
 }
 
 .about-us {
     display: flex;
     justify-content: center;
-    align-items: left;
     margin-top: 200px;
-    margin-right: 300px;
+    gap: 30px;
+}
+
+.about-box {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about-image {
-    width: auto;
+    display: flex;
     height: 600px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .about-text {
+    display: flex;
+    flex-direction: column;
     max-width: 22%;
-    margin-top: -45px;
-    margin-left: 20;
     font-size: 23px;
     line-height: 1.8;
 }
@@ -148,3 +156,38 @@ body {
     color: white;
 }
 
+@media screen and (max-width:1500px) {
+
+    .about-image {
+        display: flex;
+        height: 400px;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 22%;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+}
+
+@media screen and (max-width:1339px) {
+    .about-image {
+        display: flex;
+        height: 400px;
+        flex-wrap: wrap;
+        width: 80%;
+        margin
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 22%;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+}
