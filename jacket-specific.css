@@ -1,0 +1,138 @@
+@import url(header.css);
+@import url(footer.css);
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.specific-jacket {
+    display: flex;
+    align-items: flex-start;
+}
+
+.price {
+    margin-top: 80px;
+    margin-left: 690px;
+    font-size: 20px;
+}
+
+
+.product-info {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 600px;
+}
+
+.jackettext {
+    font-size: 30px;
+    width: 40%;
+}
+
+.specific-jacket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.specific-jacket img {
+    max-width: 400px;
+    margin-right: 100px;
+}
+
+.sizes {
+    display: flex;
+}
+
+.size {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border: 2px solid #172663;
+    background-color: #172663;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.size:not(:last-child) {
+    margin-right: 20px;
+}
+
+.size:hover {
+    background-color: #031045;
+}
+
+.add button {
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: #172663;
+    border: 2px solid #172663;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.add button:hover {
+    background-color: #031045;
+}
+
+.traits {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.traits h2 {
+    margin-bottom: 10px;
+}
+
+.traits-content {
+    border: 1px solid;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 40%;
+}
+
+.inside-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.popular {
+    margin-top: 200px;
+}
+
+.popular-title {
+    margin-left: 220px;
+}
+
+.popular-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-image {
+    width: 300px;
+    height: 300px;
+}
+
+.product {
+    flex: 0 1 calc(25% - 0px);
+    text-align: left;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.product-image {
+    max-width: 100%;
+}
+
