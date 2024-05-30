@@ -1,34 +1,59 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12286402&assignment_repo_type=AssignmentRepo)
-# HTML & CSS Course Assignment
+![RainyDays_Logo](https://github.com/Andreasjoa23/Rainydays/assets/147412848/473feae5-71de-410c-b7c8-f622adbe2370)
 
-## Brief
+A simple overview of the use/purpose of the project.
 
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+## Description
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+## Key Features:
+* A home page showing a short list of products, an About us section with a sign up section at the end.
+* A collection page showcasing the list of products of the shop with a overall description of the products.
+* A specific product page with a description of the jacked, sizes, traits and a list of other products.
+* A checkout page with a overview of the product, a shipping address section and a payment section.
+* A order complete page showing a successful purchase.
+* A login page.
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique <meta name="description">, <title>, and <h1>.
-- You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+  ## Bult With
+  [HTML]
+  [CSS]
 
-## Process
+## Getting Started
+  ### Installing
 
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries, flex or grid to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. When your site is ready, post it on the Teams peer review channel.
-8. Look at the work of your peers and write a review for them.
-9. Make adjustments based on the feedback you gather from peers and teachers.
-10. Submit here on Teams.
+  To get a local copy up and running, simply clone the repo:
+  ```bash
+  git clone git@github.com: gh repo clone Andreasjoa23/Rainydays
+  ```
+  ### Running
+  Since the project uses static HTML and CSS, you can simply open the index.html file in your browser to view the website.
+  1. Install live-server globally:
+```bash
+npm install -g live-server
+```
+2. Run live-server in the project directory:
+```bash
+npm install -g live-server
+```
 
-## Delivery
+## Contributing
+  We welcome contributions from the community! Whether you're fixing bugs, improving the code, or adding new features, your efforts are appreciated. To contribute to this project, please follow the guidelines below:
 
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+  How to Contribute
+  Fork the Repository: Fork the project repository by clicking the "Fork" button at the top right corner of this page.
+  Clone the Forked Repository: Clone your forked repository to your local machine.
+  bash
+  Copy code
+  git clone https://github.com/your-username/Rainydays.git
+  Create a Branch: Create a new branch for your changes.
+  bash
+  Copy code
+  git checkout -b feature/your-feature-name
+  
+  Make Changes: Make your changes to the codebase. Ensure that your code follows the project's coding standards.
+  Commit Your Changes: Commit your changes with a clear and concise commit message.
+  Copy code
+  git commit -m "Add feature: Description of your feature"
+  Push to the Branch: Push your changes to your forked repository.
+  bash
+  Copy code
+  git push origin feature/your-feature-name
+  Create a Pull Request: Open a pull request from your branch to the main repository. Provide a clear description of your changes and the reason for them.
