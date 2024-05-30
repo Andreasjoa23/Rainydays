@@ -12,7 +12,7 @@ Welcome to my first ever coding project!
 * A order complete page showing a successful purchase.
 * A login page.
 
-## Bult With
+## Built With
 [HTML]
 [CSS]
 
