@@ -1,6 +1,6 @@
 ![RainyDays_Logo](https://github.com/Andreasjoa23/Rainydays/assets/147412848/473feae5-71de-410c-b7c8-f622adbe2370)
 
-A simple overview of the use/purpose of the project.
+Welcome to my first ever coding project!
 
 ## Description
 
