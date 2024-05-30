@@ -38,15 +38,17 @@ npm install -g live-server
   We welcome contributions from the community! Whether you're fixing bugs, improving the code, or adding new features, your efforts are appreciated. To contribute to this project, please follow the guidelines below:
 
   ### How to Contribute
-  1. Fork the Repository: 
+  
+  #### 1. Fork the Repository: 
   Fork the project repository by clicking the "Fork" button at the top right corner of this page.
-  2. Clone the Forked Repository: 
+  
+  #### 2. Clone the Forked Repository: 
   Clone your forked repository to your local machine.
 
   ```bash
   git clone https://github.com/your-username/Rainydays.git
   ```
-  3. Create a Branch:
+  #### 3. Create a Branch:
   Create a new branch for your changes.
   
   ```bash
@@ -55,17 +57,18 @@ npm install -g live-server
   
   #### 4. Make Changes:
   Make your changes to the codebase. Ensure that your code follows the project's coding standards.
-  5. Commit Your Changes:
+  
+  #### 5. Commit Your Changes:
   Commit your changes with a clear and concise commit message.
   
   ```bash
   git commit -m "Add feature: Description of your feature"
   ```
 
-  6. Push to the Branch: 
+  #### 6. Push to the Branch: 
   Push your changes to your forked repository.
   ```bash
   git push origin feature/your-feature-name
   ```
-  7. Create a Pull Request: 
+  #### 7. Create a Pull Request: 
   Open a pull request from your branch to the main repository. Provide a clear description of your changes and the reason for them.
