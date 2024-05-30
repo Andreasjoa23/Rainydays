@@ -35,35 +35,29 @@ Welcome to my first ever coding project!
   ```
 
 ## Contributing
-  We welcome contributions from the community! Whether you're fixing bugs, improving the code, or adding new features, your efforts are appreciated. To contribute to this project, please follow the guidelines below:
-
+  I welcome contributions from every eager coder who wants to help and make a difference! 
+  Whether you're fixing bugs, improving the code, or adding new features, your efforts are appreciated. 
+  To contribute to this project, please follow the guidelines below:
   ### How to Contribute
-  
-  #### 1. Fork the Repository:
-  Fork the project repository by clicking the "Fork" button at the top right corner of this page.
-  
-  #### 2. Clone the Forked Repository: 
-   Clone your forked repository to your local machine.
+  1. Fork the Project
+  2. Create your Feature Branch (git checkout -b feature/NameOfYourFeature)
+  3. Commit your Changes (git commit -m Add some NameOfYourFeature)
+  4. Push to the Branch (git push origin feature/NameOfYourFeature)
+  5. Open a Pull Request
 
-  ```bash
-   https://github.com/Andreasjoa23/Rainydays.git
-  ```
+## Contact
+Right now you can contact me on GitHub if you have any thoughts or questions: @Andreasjoa23
 
-  #### 3. Create a Branch:
-  Create a new branch for your changes.
-  
-  #### 4. Make Changes:
-  Make your changes to the codebase.
-  
-  #### 5. Commit Your Changes:
-  Commit your changes with a clear and concise commit message.
-  
-  ```bash
-    git commit -m "Add feature: Description of your feature"
-  ```
+## Project info
+  ### Goal
+  To put into practice everything you’ve learned about HTML and CSS over this course by bringing your design alive.
 
-  #### 6. Push to the Branch: 
-  Push your changes to your forked repository.
-
-  #### 7. Create a Pull Request: 
-  Open a pull request from your branch to the main repository. Provide a clear description of your changes and the reason for them.
+  ## Brief
+  You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+  The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+  The HTML should be semantic, neatly formatted and valid.
+  The CSS should follow the DRY principle and be easy to read.
+  The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
+  The site should be WCAG compliant, and accessibility should be taken into account.
+  Each page should have a unique <meta name="description">, <title>, and <h1>.
+  You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
