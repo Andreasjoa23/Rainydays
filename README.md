@@ -12,9 +12,9 @@ A simple overview of the use/purpose of the project.
 * A order complete page showing a successful purchase.
 * A login page.
 
-  ## Bult With
-  [HTML]
-  [CSS]
+## Bult With
+[HTML]
+[CSS]
 
 ## Getting Started
   ### Installing
