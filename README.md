@@ -44,31 +44,27 @@ npm install -g live-server
   Clone your forked repository to your local machine.
 
   ```bash
-  Copy code
   git clone https://github.com/your-username/Rainydays.git
   ```
   3. Create a Branch:
   Create a new branch for your changes.
   
   ```bash
-  Copy code
   git checkout -b feature/your-feature-name
   ```
   
-  4. Make Changes:
+  #### 4. Make Changes:
   Make your changes to the codebase. Ensure that your code follows the project's coding standards.
   5. Commit Your Changes:
   Commit your changes with a clear and concise commit message.
   
   ```bash
-  Copy code
   git commit -m "Add feature: Description of your feature"
   ```
 
   6. Push to the Branch: 
   Push your changes to your forked repository.
   ```bash
-  Copy code
   git push origin feature/your-feature-name
   ```
   7. Create a Pull Request: 
