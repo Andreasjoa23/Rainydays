@@ -39,8 +39,8 @@ Welcome to my first ever coding project!
 
   ### How to Contribute
   
-  #### 1. Fork the Repository: 
-      Fork the project repository by clicking the "Fork" button at the top right corner of this page.
+  #### 1. Fork the Repository:
+    Fork the project repository by clicking the "Fork" button at the top right corner of this page.
   
   #### 2. Clone the Forked Repository: 
     Clone your forked repository to your local machine.
@@ -48,28 +48,29 @@ Welcome to my first ever coding project!
   ```bash
     git clone https://github.com/your-username/Rainydays.git
   ```
-    #### 3. Create a Branch:
+
+  #### 3. Create a Branch:
       Create a new branch for your changes.
    
   ```bash
     git checkout -b feature/your-feature-name
   ```
   
-    #### 4. Make Changes:
-      Make your changes to the codebase. Ensure that your code follows the project's coding standards.
+  #### 4. Make Changes:
+  Make your changes to the codebase. Ensure that your code follows the project's coding standards.
   
-    #### 5. Commit Your Changes:
-      Commit your changes with a clear and concise commit message.
+  #### 5. Commit Your Changes:
+  Commit your changes with a clear and concise commit message.
   
   ```bash
     git commit -m "Add feature: Description of your feature"
   ```
 
-    #### 6. Push to the Branch: 
-      Push your changes to your forked repository.
+  #### 6. Push to the Branch: 
+  Push your changes to your forked repository.
   
   ```bash
     git push origin feature/your-feature-name
   ```
-    #### 7. Create a Pull Request: 
-      Open a pull request from your branch to the main repository. Provide a clear description of your changes and the reason for them.
+  #### 7. Create a Pull Request: 
+  Open a pull request from your branch to the main repository. Provide a clear description of your changes and the reason for them.
