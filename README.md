@@ -3,6 +3,8 @@
 Welcome to my first ever coding project!
 
 ## Description
+RainyDays is my first coding assignment, the goal was to learn to design a website and also learn how to code it using Html and Css.
+The website is a rainjacket shop where the audience target is people who like to go for hikes and be out in whatever weater. 
 
 ## Key Features:
 * A home page showing a short list of products, an About us section with a sign up section at the end.
